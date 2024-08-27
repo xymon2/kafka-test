@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package example;
+
+option go_package = "github.com/kafka-test/proto";
+
+message ExampleMessage {
+  string id = 1;
+  string content = 2;
+  string channel_id = 3;
+}
